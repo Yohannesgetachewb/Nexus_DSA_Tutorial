@@ -15,7 +15,6 @@ class Solution:
         for _ in range(n + 1):
             fast = fast.next
 
-        # Move fast to the end, maintaining the gap
         while fast:
             fast = fast.next
             slow = slow.next
