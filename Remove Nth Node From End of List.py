@@ -12,7 +12,6 @@ class Solution:
         fast = dummy
         slow = dummy
 
-        # Advance fast pointer so that the gap between fast and slow is n + 1 nodes
         for _ in range(n + 1):
             fast = fast.next
 
